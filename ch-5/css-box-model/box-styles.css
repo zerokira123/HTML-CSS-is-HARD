@@ -7,8 +7,14 @@ h1, p {
     display: inline;             /* This is the default for em and strong */
   }
 
+  strong {
+    padding: 20px;
+  }
+
   h1 {
   padding: 50px;
+  /* border: 1px solid #5D6063; */
+  border-bottom: 1px solid #5D6063;
 }
 
 /* p {
@@ -17,4 +23,5 @@ h1, p {
 
   p {
     padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+    margin-bottom: 50px;          /* Add this */
   }
