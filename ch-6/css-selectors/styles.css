@@ -9,7 +9,10 @@
     background-image: url(https://wallpapersite.com/images/wallpapers/mecha-girl-1920x1200-4k-2037.jpg);
   } */
 
-  .button {
+  .button:link,                 /* Change this */
+  .button:visited {             /* Change this */
+    display: block;             /* Add this */
+    text-decoration: none;      /* Add this */
     color: #FFF;
     background-color: #5995DA;    /* Blue */
     font-weight: bold;
@@ -21,15 +24,37 @@
     width: 200px;
     margin: 20px auto;
   }
+  .button:hover,
+  .button:visited:hover {
+    color: #FFF;
+    background-color: #76AEED;  /* Light blue */
+  }
+
+  .button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #3172bb;  /* Blue */
+}
 
   .page {
     width:600px;
     margin: 0 auto;
   }
 
-  .call-to-action {
+  .call-to-action:link,
+  .call-to-action:visited {
     font-style: italic;
-    background-color: #EEB75A;    /* Yellow */
+    background-color: #EEB75A;     /* Yellow */
+  }
+  
+  .call-to-action:hover,
+  .call-to-action:visited:hover {
+    background-color: #F5CF8E;     /* Light yellow */
+  }
+  
+  .call-to-action:active,
+  .call-to-action:visited:active {
+    background-color: #EEB75A;     /* Yellow */
   }
   a:link {
     color: blue;
@@ -38,6 +63,18 @@
   a:visited:hover {
     color: orange;
   }
-  a:active {
+  a:visited:active {
     color: red;
+  }
+
+  p:first-of-type {
+    color: #1b63ab;
+    font-style: italic;
+  }
+  p:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  #button-2 {
+    color: #5D6063;  /* Dark gray */
   }
