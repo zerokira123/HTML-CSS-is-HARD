@@ -31,3 +31,13 @@
     font-style: italic;
     background-color: #EEB75A;    /* Yellow */
   }
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  a:visited:hover {
+    color: orange;
+  }
+  a:active {
+    color: red;
+  }
