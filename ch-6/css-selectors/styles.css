@@ -2,7 +2,9 @@
     color: #6f5858;        /* Light gray */
     font-style: italic;
   }
-
+  .synopsis em {
+    font-style: normal;
+  }
   /* body {
     background-image: url(https://wallpapersite.com/images/wallpapers/mecha-girl-1920x1200-4k-2037.jpg);
   } */
@@ -18,4 +20,14 @@
   
     width: 200px;
     margin: 20px auto;
+  }
+
+  .page {
+    width:600px;
+    margin: 0 auto;
+  }
+
+  .call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;    /* Yellow */
   }
